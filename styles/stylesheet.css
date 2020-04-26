@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.sampul {
+    padding: 180px 0 100px 0;
+    background-image: url(/assets/images/18707.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.sampul a {
+    text-decoration: none;
+    color: white;
+}
+
+.sampul h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.sampul p {
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-right: -25px;
+}
+
+nav a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bolder;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 100%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon img {
+    width: 200px;
+    padding-left: 10px;
+}
+
+.lesson-icon p {
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    color: black;
+}
+
+article h2 {
+    padding-left: 30px;
+}
+
+article {
+    text-align: center;
+    font-size: 30px;
+}
+
+article li {
+    list-style-type: none;
+}
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+aside {
+    text-align: justify;
+    border-radius: 10px;
+    width: auto;
+    position: sticky;
+    line-height: 14px;
+    text-align: center;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 29em;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+aside img {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgba(34, 49, 52, 0.9);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
